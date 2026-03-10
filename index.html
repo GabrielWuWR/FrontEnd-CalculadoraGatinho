@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Calculadora</title>
+    <title>🐱 Calculadora 🐱</title>
 </head>
 
 <body>
@@ -18,34 +18,52 @@
 
         <div class="rosto">
             <div class="olhos">
-                <div class="olho">
+                <div class="olho piscar">
                     <div class="pupila"></div>
                 </div>
-                <div class="olho">
+                <div class="olho piscar">
                     <div class="pupila"></div>
                 </div>
             </div>
             <div class="nariz"></div>
+            <div class="boca"></div>
+            
+            <div class="bigodes-esq">
+                <div class="bigode"></div>
+                <div class="bigode"></div>
+            </div>
+            <div class="bigodes-dir">
+                <div class="bigode"></div>
+                <div class="bigode"></div>
+            </div>
+        </div>
+
+        <div class="cauda">
+            <div class="ponta-cauda"></div>
         </div>
     </div>
+    
     <div class="containerCalculadora">
         <div class="maoUm"></div>
         <div class="maoDois"></div>
 
         <div class="conteudo">
             <h1>Calculadora</h1>
-            <div class="input">
-                <p>Primeiro número:</p>
-                <input id="inputUm" type="number" placeholder="Digite o primeiro número">
+            
+            <div class="input-group">
+                <label for="inputUm">Primeiro número:</label>
+                <input id="inputUm" type="number" placeholder="Digite aqui...">
             </div>
-            <div class="input">
-                <p>Segundo número:</p>
-                <input id="inputDois" type="number" placeholder="Digite o segundo número">
+            
+            <div class="input-group">
+                <label for="inputDois">Segundo número:</label>
+                <input id="inputDois" type="number" placeholder="Digite aqui...">
             </div>
+            
             <button id="botaoResponder">Calcular</button>
 
             <div id="containerResposta" class="containerResposta">
-                <span id="resposta" class="resposta"></span>
+                <span id="resposta" class="resposta">ㅤㅤ</span>
             </div>
         </div>
     </div>
